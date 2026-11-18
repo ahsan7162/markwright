@@ -4,6 +4,15 @@ A bb plugin that opens `.md` files as a document you edit like a Word or Notion 
 with no Markdown syntax to type. The file on disk stays plain Markdown, and **a save
 rewrites only the blocks you changed**, so git diffs stay small.
 
+## Install
+
+```sh
+bb plugin install https://github.com/ahsan7162/markwright.git
+```
+
+Requires bb 0.49 or later. Then open any `.md` file in a thread's side panel. To make
+Markwright the default for Markdown, see [Choosing the default opener](#choosing-the-default-opener).
+
 ## What you can do
 
 - **Type `/`** on an empty line, or click **`+`** beside a block, or **+ Insert** in the
@@ -90,3 +99,7 @@ The save approach (write the original bytes when nothing changed, keep untouched
 blocks' source, prove the result re-parses to the same document) follows
 [Orca](https://github.com/stablyai/orca)'s rich-markdown editor (MIT). The code here is
 our own.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
