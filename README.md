@@ -4,6 +4,8 @@ A bb plugin that opens `.md` files as a document you edit like a Word or Notion 
 with no Markdown syntax to type. The file on disk stays plain Markdown, and **a save
 rewrites only the blocks you changed**, so git diffs stay small.
 
+<!-- SCREENSHOT: replace this line with screenshots/readme/1-overview.png (alt: "Markwright editing a launch plan") -->
+
 ## Install
 
 ```sh
@@ -37,6 +39,12 @@ Markwright the default for Markdown, see [Choosing the default opener](#choosing
   `#heading` links scroll to the heading.
 - **Rich | Source** toggle in the header switches to the raw text.
 
+<!-- SCREENSHOT: replace this line with screenshots/readme/2-slash-menu.png (alt: "The / block menu filtered to diagram starters") -->
+
+<!-- SCREENSHOT: replace this line with screenshots/readme/3-mermaid.png (alt: "Editing a Mermaid diagram above its live preview") -->
+
+<!-- SCREENSHOT: replace this line with screenshots/readme/4-templates.png (alt: "The template picker on an empty file") -->
+
 ## Saving and agents
 
 - Autosaves 800 ms after you stop typing; ⌘S saves at once. A pending save is flushed
@@ -48,6 +56,8 @@ Markwright the default for Markdown, see [Choosing the default opener](#choosing
   without moving your cursor.
 - If a save fails or a conflict is open, your text is also kept in a local draft and
   offered back the next time you open the file.
+
+<!-- SCREENSHOT: replace this line with screenshots/readme/5-conflict.png (alt: "The changed-on-disk banner comparing both versions") -->
 
 ## Files that open read-only
 
