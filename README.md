@@ -4,7 +4,7 @@ A bb plugin that opens `.md` files as a document you edit like a Word or Notion 
 with no Markdown syntax to type. The file on disk stays plain Markdown, and **a save
 rewrites only the blocks you changed**, so git diffs stay small.
 
-<!-- SCREENSHOT: replace this line with screenshots/readme/1-overview.png (alt: "Markwright editing a launch plan") -->
+<img width="3200" height="2000" alt="1-overview" src="https://github.com/user-attachments/assets/039716ed-707b-4534-b02c-2ff3fd225d9d" />
 
 ## Install
 
@@ -39,11 +39,11 @@ Markwright the default for Markdown, see [Choosing the default opener](#choosing
   `#heading` links scroll to the heading.
 - **Rich | Source** toggle in the header switches to the raw text.
 
-<!-- SCREENSHOT: replace this line with screenshots/readme/2-slash-menu.png (alt: "The / block menu filtered to diagram starters") -->
+<img width="3200" height="2000" alt="2-slash-menu" src="https://github.com/user-attachments/assets/3d32cbb8-e2bb-4108-a9bb-265fc9d54453" />
 
-<!-- SCREENSHOT: replace this line with screenshots/readme/3-mermaid.png (alt: "Editing a Mermaid diagram above its live preview") -->
+<img width="3200" height="2000" alt="3-mermaid" src="https://github.com/user-attachments/assets/8a036d62-4605-46d2-85cb-06255d210780" />
 
-<!-- SCREENSHOT: replace this line with screenshots/readme/4-templates.png (alt: "The template picker on an empty file") -->
+<img width="3200" height="2000" alt="4-templates" src="https://github.com/user-attachments/assets/bc15b844-6191-47f8-b88f-b7aedd6d89e2" />
 
 ## Saving and agents
 
@@ -57,7 +57,7 @@ Markwright the default for Markdown, see [Choosing the default opener](#choosing
 - If a save fails or a conflict is open, your text is also kept in a local draft and
   offered back the next time you open the file.
 
-<!-- SCREENSHOT: replace this line with screenshots/readme/5-conflict.png (alt: "The changed-on-disk banner comparing both versions") -->
+<img width="3200" height="2000" alt="5-conflict" src="https://github.com/user-attachments/assets/67fd5545-88e8-4cb3-ade5-7f0cd19dbbdf" />
 
 ## Files that open read-only
 
